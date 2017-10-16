@@ -45,8 +45,8 @@ function time() {
   var hr = time.getHours() < 10 ? '0' + time.getHours() : time.getHours();
   var min = time.getMinutes() < 10 ? '0' + time.getMinutes() : time.getMinutes();
   var secks = time.getSeconds() < 10 ? '0' + time.getSeconds() : time.getSeconds();
-  console.log(hr + ':' + min + ':' + secks);
-  klok.innerHTML = ('<h1>' + hr + ':' + min + ':' + secks + '</h1>');
+  console.log(hr + min + secks);
+  klok.innerHTML = ('<h1>' +  '#' + hr + min + secks + '</h1>');
   // var hexLog = "#" + hrs + min + sec;
   var hrstring = hr.toString();
   var minstring = min.toString();
