@@ -33,23 +33,14 @@ h1 {
   position: fixed;*/
 }
 
-.kloknameframe {
-  /*height: calc(50vh - 100px);
-  width: 100vw;
-  display: block;
-  top: 10%; */
-}
-
 #klokname{
-  /*position: inherit;
-  margin: 0 auto;
-  height: 100px;
+  margin: auto auto;
+  /*height: 100px;
   width: 500px;*/
 }
 
 #klokframe{
-  /*position: relative;
-  height: calc(50vh);*/
+  margin: auto;
 }
 
 #klok{
